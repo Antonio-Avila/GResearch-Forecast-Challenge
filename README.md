@@ -7,7 +7,7 @@ The competition was hosted by G-Research, a quantitative research and tech compa
 
 Data can be found via the G-Research link above. (Tried to upload in compressed folder but the file was still too large).
 
-Code can be found in the file: *_coding sample.R_*.
+Code can be found in the file: **_coding sample.R_**
 
 Since financial data tends to be nonlinear, I decided to model the data using a Support Vector Regression model. SVR performs relatively well on nonlinear data at the cost of increased computational time. Furthermore, after investingating the training and testing sets, I discovered they all came from the same source; the testing set seemed to be data points taken out of a larger set with the stock values stripped out and the training set composed of the remaining data points with the values. In other words, the training set contained missing time points for each stock and those missing points were used as the testing set. Thus a SVR model seemed to make an appropriate model. 
 It was not until after the competition that I saw how much better boosting alogrithims performed over other models. 
