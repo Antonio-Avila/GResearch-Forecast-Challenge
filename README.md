@@ -28,4 +28,8 @@ Some things I didn't take into account or have a chance to include:
  - try other types of models
 
 
-The competition did open my eyes to the importance of cleaning the data/engineering features and the superior prediction power of boosting algorithms. # GResearch-Forecasting-Challenge
+Unfortunately only placed in the 53rd percentile under the name __whatamidoing__ in the leaderboard. 
+The competition did open my eyes to the importance of cleaning the data/engineering features and the superior prediction power of boosting algorithms. 
+
+It was great competing with machine learning experts and data scientists as it made for a huge learning opportunity. For the next competition, I plan on taking into account the amount of time it takes to train and predict as well as other algorithms such as LightGBM. 
+
